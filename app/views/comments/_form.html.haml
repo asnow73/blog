@@ -1,0 +1,11 @@
+= simple_form_for([@post, @post.comments.build]) do |f|
+  %p
+    = f.label :commenter
+    %br
+    = f.input_field :commenter
+  %p
+    = f.label :body
+    %br
+    = f.input_field :body, as: :text
+  %p
+    = f.submit
