@@ -17,6 +17,8 @@ gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "twitter-bootstrap-rails"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -36,6 +38,10 @@ gem 'haml-rails'
 
 gem 'simple_form'
 
+group :test do
+  #gem "coveralls", require: false
+  gem "factory_girl_rails", "~> 4.0"
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
