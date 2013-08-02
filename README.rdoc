@@ -1,5 +1,9 @@
 {<img src="https://travis-ci.org/asnow73/blog.png?branch=master" alt="Build Status" />}[https://travis-ci.org/asnow73/blog]
 
+
+{<img src="https://coveralls.io/repos/asnow73/blog/badge.png?branch=master" alt="Coverage Status" />}[https://coveralls.io/r/asnow73/blog?branch=master]
+
+
 == README
 
 This README would normally document whatever steps are necessary to get the
