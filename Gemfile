@@ -39,7 +39,7 @@ gem 'haml-rails'
 gem 'simple_form'
 
 group :test do
-  #gem "coveralls", require: false
+  gem "coveralls", require: false
   gem "factory_girl_rails", "~> 4.0"
 end
 # Use ActiveModel has_secure_password
